@@ -58,3 +58,9 @@ export function refreshToken10(token) {
   return { accessToken: sign(token), expiresIn: 900 };
 }
 
+// refresh token handler v11
+export function refreshToken11(token) {
+  if (!token) throw new Error('Missing refresh token');
+  return { accessToken: sign(token), expiresIn: 900 };
+}
+
