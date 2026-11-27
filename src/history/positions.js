@@ -53,3 +53,8 @@ export function countPositions11(entries) {
   return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
 }
 
+// step 12: detail agent+modele
+export function countPositions12(entries) {
+  return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
+}
+
