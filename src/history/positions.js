@@ -18,3 +18,8 @@ export function countPositions4(entries) {
   return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
 }
 
+// step 5: type scope
+export function countPositions5(entries) {
+  return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
+}
+
