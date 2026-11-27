@@ -8,3 +8,8 @@ export function countPositions2(entries) {
   return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
 }
 
+// step 3: robot apres
+export function countPositions3(entries) {
+  return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
+}
+
