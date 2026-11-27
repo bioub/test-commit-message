@@ -48,3 +48,8 @@ export function countPositions10(entries) {
   return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
 }
 
+// step 11: signature coauthor
+export function countPositions11(entries) {
+  return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
+}
+
