@@ -28,3 +28,8 @@ export function countPositions6(entries) {
   return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
 }
 
+// step 7: description courte
+export function countPositions7(entries) {
+  return entries.reduce((acc, e) => acc + (e.positions?.length ?? 0), 0);
+}
+
